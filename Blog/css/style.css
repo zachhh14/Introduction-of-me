@@ -1,0 +1,134 @@
+
+@import url('./font.css');
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --dark-liver: #484349;
+    --electric-blue:#8AF3FF;
+    
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+
+}
+
+.my-hobbies{
+    font-family: var(--Abel);
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-liver);
+}
+
+a:hover{
+    color: #a1c4cf;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-family: var(--Josefin);
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+    font-size: 1rem;
+}
+
+p{
+    font-family: var(--Lexend);
+    padding-top: 3rem;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    font-family: var(--Lexend);
+    padding-top: 6rem;
+}
+/* nav */
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height:0 2 rem;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+.nav .social-media{
+    padding: 1.4rem 0;
+}
+
+.nav .social-media i{
+    padding: .2rem;
+}
+
+.nav .social-media i:hover{
+    color: #a1c4cf;
+}
+/*              xnavx        */
+
+/*          main content        */
+
+/*          Site title        */
+main .site-title{
+    background-color: var(--electric-blue);    
+    background-size: cover;
+    height:110vh;
+}
+
+main .site-title .site-background{
+    padding-top: .1rem;
+    text-align: center;
+    color: var(--dark-liver);
+}
+.site-title .list-items{
+    display: flex;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+main .site-title .main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+main .site-title .main-content .description{
+    display:flex;
+    flex-direction: column;
+   
+    
+}
+main .site-title .main-content .pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #484349;
+}
+
+/*    x      Site title    x    */
+
+
+/*     x     main content     x   */

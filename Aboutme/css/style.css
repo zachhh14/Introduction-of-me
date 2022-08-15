@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-attachment: fixed;
+}
+.pinakaheader{
+    font-size: 200%;
+}
+
+h1{
+    font-weight: normal;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.aboutme{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 150%; */
+    font-weight: normal;
+    
+}
+
+.abdescription{
+    font-size:18px;
+    padding: 2%;
+}
+
+.school{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edescription{
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    
+}
+
+.interestDescription{
+    font-size:18px;
+    padding: 2%;
+}
+
+.interestDescription{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 150%; */
+    font-weight: normal;
+    
+}
+
+
+
